@@ -3,10 +3,14 @@ import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
 import project4 from "../assets/project-4.png";
 import Portfolio from "../assets/Portfolio.png";
+import project5 from "../assets/project-5.png"
+import project6 from "../assets/project-6.png"
 
-export const HOME_CONTENT = `I am a passionate Frontend developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like HTML, CSS, JavaScript, React.js, Tailwind CSS and Typescript. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HOME_CONTENT = `I am a passionate Web developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies and also backend technologies like HTML, CSS, JavaScript, React.js, Tailwind CSS , Typescript , Node.js , Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Frontend developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Tailwind CSS, Typescript, Zustand, Redux, Bootstrap . My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `I’m Ganesh Mehto, a BCA graduate (May 2025) from DAV Centenary College, Faridabad, with hands-on experience in full-stack web development. I specialize in building responsive, scalable applications using React.js, Node.js, Express.js, and MongoDB, and have worked on real-world projects like Interview Prep AI (with Google Gemini AI integration) and an E-commerce backend.
+
+I'm certified in Frontend Development and Generative AI, and continuously learn modern tools like TypeScript, Tailwind CSS, and Zustand. I’m passionate about solving real problems through clean, efficient code, and I’m actively seeking opportunities as a full-stack developer to grow and contribute in a dynamic tech environment.`;
 
 // export const EXPERIENCES = [
 //   {
@@ -40,6 +44,20 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Frontend developer wit
 // ];
 
 export const PROJECTS = [
+  {
+    title: "Interview Prep AI",
+    image: project5,
+    description:
+      " I built Interview Prep AI as an AI-powered interview preparation platform using React for the frontend and Node.js + MongoDB for the backend. It integrates Google Gemini AI to generate dynamic technical questions. I implemented secure authentication with JWT, session handling, and REST APIs for managing users and files. I also designed responsive dashboards using Tailwind CSS and ensured real-time updates for a smooth user experience.",
+    technologies: ["React.js", "Express.js", "Node.js","MongoDB", "Tailwind CSS", ],
+  },
+   {
+    title: "E-commerce Backend Project",
+    image: project6,
+    description:
+      "I built an e-commerce backend using Express.js and MongoDB. It supports user authentication with JWT, product management, and order processing. I followed REST principles and used Mongoose for schema modeling. I also implemented middleware for route protection and tested the API using Postman. It's ready to connect with a frontend built in React.",
+    technologies: ["React.js", "Express.js", "Node.js","MongoDB", "Tailwind CSS", ],
+  },
   {
     title: "LaslesVPN landing page",
     image: project1,

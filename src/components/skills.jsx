@@ -1,5 +1,6 @@
 import React from 'react'
-import { RiCss3Fill, RiHtml5Fill, RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
+import { RiCss3Fill, RiHtml5Fill, RiReactjsLine, RiTailwindCssFill} from 'react-icons/ri'
+import { SiExpress, SiMongodb, SiNodedotjs } from 'react-icons/si';
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 import { animate, easeIn, motion } from 'framer-motion';
@@ -55,6 +56,21 @@ const Skills = () => {
                 initial="initial"
                 animate="animate" className='rounded-2xl border-4 border-neutral-500 p-4'>
                     <RiTailwindCssFill className='text-7xl text-cyan-400' />
+                </motion.div>
+                  <motion.div  variants={iconVariant(3.5)}
+                initial="initial"
+                animate="animate" className='rounded-2xl border-4 border-neutral-500 p-4'>
+                    <SiNodedotjs className='text-7xl text-green-700' />
+                </motion.div>
+                <motion.div  variants={iconVariant(4.5)}
+                initial="initial"
+                animate="animate" className='rounded-2xl border-4 border-neutral-500 p-4'>
+                    <SiExpress className='text-7xl text-gray-700' />
+                </motion.div>
+                <motion.div  variants={iconVariant(5.5)}
+                initial="initial"
+                animate="animate" className='rounded-2xl border-4 border-neutral-500 p-4'>
+                    <SiMongodb className='text-7xl text-green-600' />
                 </motion.div>
             </motion.div>
         </div>

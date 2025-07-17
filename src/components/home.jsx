@@ -12,7 +12,7 @@ const Home = () => {
     }
   })
   return (
-    <div className=' border-b border-neutral-500 pb-6 lg:mb-20  md:mt-10'>
+    <div className=' border-b border-neutral-500 pb-6 lg:mb-20  '>
       <div className=' flex flex-wrap '>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start lg:px-15'>
@@ -27,7 +27,7 @@ const Home = () => {
             variants={container(0.5)}
             initial='hidden'
             animate='visible' className='gradient bg-clip-text tracking-tight text-transparent text-4xl'>
-              FrontEnd Developer
+              Web Developer
             </motion.span>
             <motion.p  
              variants={container(1)}
