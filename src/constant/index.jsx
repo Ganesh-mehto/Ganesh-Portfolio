@@ -1,10 +1,10 @@
-import project1 from "../assets/project-1.png";
-import project2 from "../assets/project-2.png";
-import project3 from "../assets/project-3.png";
-import project4 from "../assets/project-4.png";
+import project1 from "../assets/Project-1.png";
+import project2 from "../assets/Project-2.png";
+import project3 from "../assets/Project-3.png";
+import project4 from "../assets/Project-4.png";
+import project5 from "../assets/Project-5.png";
+import project6 from "../assets/Project-6.png";
 import Portfolio from "../assets/Portfolio.png";
-import project5 from "../assets/project-5.png"
-import project6 from "../assets/project-6.png"
 
 export const HOME_CONTENT = `I am a passionate Web developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies and also backend technologies like HTML, CSS, JavaScript, React.js, Tailwind CSS , Typescript , Node.js , Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -17,21 +17,21 @@ I'm certified in Frontend Development and Generative AI, and continuously learn 
 //     year: "2023 - Present",
 //     role: "Senior Full Stack Developer",
 //     company: "Google Inc.",
-//     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-//     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+//     description: `Led a team in developing and maintaining web applications using JavaScript, React.js.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+//     technologies: ["Javascript", "React.js.js", "Next.js", "mongoDB"],
 //   },
 //   {
 //     year: "2022 - 2023",
 //     role: "Frontend Developer",
 //     company: "Adobe",
-//     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+//     description: `Designed and developed user interfaces for web applications using Next.js and React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
 //     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
 //   },
 //   {
 //     year: "2021 - 2022",
 //     role: "Full Stack Developer",
 //     company: "Facebook",
-//     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+//     description: `Developed and maintained web applications using JavaScript, React.js.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
 //     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
 //   },
 //   {
@@ -48,14 +48,14 @@ export const PROJECTS = [
     title: "Interview Prep AI",
     image: project5,
     description:
-      " I built Interview Prep AI as an AI-powered interview preparation platform using React for the frontend and Node.js + MongoDB for the backend. It integrates Google Gemini AI to generate dynamic technical questions. I implemented secure authentication with JWT, session handling, and REST APIs for managing users and files. I also designed responsive dashboards using Tailwind CSS and ensured real-time updates for a smooth user experience.",
+      " I built Interview Prep AI as an AI-powered interview preparation platform using React.js for the frontend and Node.js + MongoDB for the backend. It integrates Google Gemini AI to generate dynamic technical questions. I implemented secure authentication with JWT, session handling, and REST APIs for managing users and files. I also designed responsive dashboards using Tailwind CSS and ensured real-time updates for a smooth user experience.",
     technologies: ["React.js", "Express.js", "Node.js","MongoDB", "Tailwind CSS", ],
   },
    {
     title: "E-commerce Backend Project",
     image: project6,
     description:
-      "I built an e-commerce backend using Express.js and MongoDB. It supports user authentication with JWT, product management, and order processing. I followed REST principles and used Mongoose for schema modeling. I also implemented middleware for route protection and tested the API using Postman. It's ready to connect with a frontend built in React.",
+      "I built an e-commerce backend using Express.js and MongoDB. It supports user authentication with JWT, product management, and order processing. I followed REST principles and used Mongoose for schema modeling. I also implemented middleware for route protection and tested the API using Postman. It's ready to connect with a frontend built in React.js.",
     technologies: ["React.js", "Express.js", "Node.js","MongoDB", "Tailwind CSS", ],
   },
   {
@@ -69,22 +69,22 @@ export const PROJECTS = [
     title: "Spotify Clone",
     image: project2,
     description:
-      "A single-page Spotify clone is a web app mimicking Spotify's core features.  It uses JavaScript (often with frameworks like React) to dynamically update content without page reloads, creating a smooth experience. Key features include a familiar layout, playback controls, and responsive design.",
+      "A single-page Spotify clone is a web app mimicking Spotify's core features.  It uses JavaScript (often with frameworks like React.js) to dynamically update content without page reloads, creating a smooth experience. Key features include a familiar layout, playback controls, and responsive design.",
     technologies: ["HTML", "CSS", "JavaScript", "React.js","Tailwind CSS"],
   },
   {
     title: "Zoro-Movie Clone",
     image: project3,
     description:
-      "A single-page movie website presents a film's information and viewing options within a single HTML document.  Using JavaScript and often a framework like React. Typically, it would fetch movie data from an API (like TMDb or OMDb) .  Key features include dynamic content loading, a user-friendly interface for browsing and searching, and responsive design for various screen sizes.",
-    technologies: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
+      "A single-page movie website presents a film's information and viewing options within a single HTML document.  Using JavaScript and often a framework like React.js. Typically, it would fetch movie data from an API (like TMDb or OMDb) .  Key features include dynamic content loading, a user-friendly interface for browsing and searching, and responsive design for various screen sizes.",
+    technologies: ["HTML", "CSS","JavaScript", "React.js", "Tailwind CSS"],
   },
   {
     title: "Shopify Clone",
     image: project4,
     description:
       "A single-page shopping website offers a complete e-commerce experience.  Leveraging JavaScript, often with frameworks like React.js . Product data is typically fetched from an API or database, allowing the site to showcase items with images, descriptions, prices, and variations.  Key features include dynamic product loading, shopping cart management, a streamlined checkout process, responsive design for various devices.",
-      technologies: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
+      technologies: ["HTML", "CSS","JavaScript", "React.js", "Tailwind CSS"],
     },
   
   {
@@ -92,12 +92,12 @@ export const PROJECTS = [
     image: Portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
+    technologies: ["HTML", "CSS","JavaScript", "React.js", "Tailwind CSS"],
   },
 ];
 
 export const CONTACT = {
-  address: "sec-4 faridabad Haryana India   ",
+  address: "Sector-4 faridabad Haryana India   ",
   phoneNo: "+91 9315140028",
   email: "ganeshmehto2004@gmail.com",
 };
